@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01DCEA481EE1B00D00CBCEC6 /* TaiwanArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DCEA471EE1B00D00CBCEC6 /* TaiwanArea.m */; };
 		01E0CA2D1EADD9300070CE00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E0CA2C1EADD9300070CE00 /* main.m */; };
 		01E0CA301EADD9300070CE00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E0CA2F1EADD9300070CE00 /* AppDelegate.m */; };
 		01E0CA331EADD9300070CE00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E0CA321EADD9300070CE00 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01DCEA461EE1B00D00CBCEC6 /* TaiwanArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaiwanArea.h; sourceTree = "<group>"; };
+		01DCEA471EE1B00D00CBCEC6 /* TaiwanArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaiwanArea.m; sourceTree = "<group>"; };
 		01E0CA281EADD9300070CE00 /* TodoObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E0CA2C1EADD9300070CE00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01E0CA2E1EADD9300070CE00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +69,8 @@
 				01E0CA371EADD9300070CE00 /* Assets.xcassets */,
 				01E0CA391EADD9300070CE00 /* LaunchScreen.storyboard */,
 				01E0CA3C1EADD9300070CE00 /* Info.plist */,
+				01DCEA461EE1B00D00CBCEC6 /* TaiwanArea.h */,
+				01DCEA471EE1B00D00CBCEC6 /* TaiwanArea.m */,
 				01E0CA2B1EADD9300070CE00 /* Supporting Files */,
 			);
 			path = TodoObjc;
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01DCEA481EE1B00D00CBCEC6 /* TaiwanArea.m in Sources */,
 				01E0CA331EADD9300070CE00 /* ViewController.m in Sources */,
 				01E0CA301EADD9300070CE00 /* AppDelegate.m in Sources */,
 				01E0CA2D1EADD9300070CE00 /* main.m in Sources */,
@@ -310,6 +316,7 @@
 				01E0CA411EADD9300070CE00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
